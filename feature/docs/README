@@ -21,7 +21,7 @@ Azuarif is a quiz app that gives instant feedback, a clear explanation for the r
 - Mobile-friendly design
 
 ## Live demo
-https://github.com/MWANGI-BUILDS/Azuarif-AZ-900-quiz
+https://mwangi-builds.github.io/Azuarif-AZ-900-quiz/
 
 ## Tech stack
 HTML, CSS, JavaScript. Optional: Supabase Edge Function + Claude for live example generation. Built with AI assistance from Claude.
@@ -36,7 +36,7 @@ HTML, CSS, JavaScript. Optional: Supabase Edge Function + Claude for live exampl
 - `js/app.js`: quiz logic and scoring
 - `js/explain.js`: African example feature
 - `data/questions.js`: question bank
-- `docs/prompts.md`: prompts used
+- `feature/docs/promt.md`: prompts used
 
 ## Team
 - Content Lead: Victor Kevin
