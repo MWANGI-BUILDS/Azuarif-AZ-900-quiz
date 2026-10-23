@@ -1,0 +1,48 @@
+# Azuarif: Unofficial AZ-900 Practice Tool
+
+> Know why, not just what.
+
+**Unofficial learning project. Not affiliated with or endorsed by Microsoft. All questions are original and based on the public AZ-900 skills outline on Microsoft Learn.**
+
+Built for the Vibe Coding Hackathon: AZ-900 Exam Prep Edition (#1MillionDevs, Power Learn Project Africa).
+
+## The problem
+Many learners practise with questions but never understand why an answer is right or wrong.
+
+## The solution
+Azuarif is a quiz app that gives instant feedback, a clear explanation for the right answer, a reason why each wrong option is wrong, and an "Explain with an African example" button for beginners. Results are shown by AZ-900 topic.
+
+## Features
+- Original questions organised by topic
+- Instant correct/wrong feedback with explanations
+- Reasons why the other options are wrong
+- African real-life examples (matatus, SACCOs, apartment rentals)
+- Score by topic with a simple readiness message
+- Mobile-friendly design
+
+## Live demo
+https://github.com/MWANGI-BUILDS/Azuarif-AZ-900-quiz
+
+## Tech stack
+HTML, CSS, JavaScript. Optional: Supabase Edge Function + Claude for live example generation. Built with AI assistance from Claude.
+
+## How to run
+1. Clone this repo.
+2. Open `index.html` in a browser.
+
+## Project structure
+- `index.html`: page structure
+- `css/style.css`: styling
+- `js/app.js`: quiz logic and scoring
+- `js/explain.js`: African example feature
+- `data/questions.js`: question bank
+- `docs/prompts.md`: prompts used
+
+## Team
+- Content Lead: Victor Kevin
+- Frontend Lead: Sandisiwe Phillip
+- AI and Logic Lead: Ann Mwangi
+- Docs, QA and Pitch Lead: Michael Mwangi
+
+## Future scale
+More questions per topic, spaced repetition, a readiness dashboard, local-language explanations, and support for other certifications.
